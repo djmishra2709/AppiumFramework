@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SwagLabsAppTestSuite">
+    <listeners>
+        <listener class-name="listeners.ExtentReportListener" />
+    </listeners>
+    <test name="SwagLabsTest">
+        <classes>
+            <class name="TestClasses.BaseTest" />
+            <class name="TestClasses.LoginTest" />
+        </classes>
+    </test>
+</suite>
